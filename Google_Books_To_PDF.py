@@ -100,7 +100,7 @@ for i in range(0, pages):
     os.system("clear")
     os.system("cls")
 
-pdf = FPDF()
+pdf = FPDF()0
 for image in imagelist:
     pdf.add_page()
     pdf.image(image,0,0,210,297)
